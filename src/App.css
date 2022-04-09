@@ -1,0 +1,54 @@
+ body{
+    background-color: black;
+    background-image: url("https://www.bing.com/images/search?view=detailV2&ccid=mxN4vwp1&id=EDA262BB8219AA49A9A11F4A0F06D34B28D7B1C9&thid=OIP.mxN4vwp1MUb7_tpBY7YiVQHaEK&mediaurl=https%3a%2f%2fwallpapercave.com%2fwp%2fwp3537568.png&exph=1080&expw=1920&q=background+images+for+ecommerce+websites&simid=608037871846194599&FORM=IRPRST&ck=9BF3CA7B192DF8BD7419A2BD69D92494&selectedIndex=23");
+    background-size: cover;
+}
+h1{
+     color: white;
+     text-align: center;
+     font-size: 30px;
+     margin: 0 0 2rem ;
+     font-family: 'stylish',sans-serif;
+
+}
+.container{
+    background-color: blue;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+     flex-wrap: wrap;  
+     display: -moz-grid-group;
+     height: 20px;
+
+}
+.box{
+    background-color: burlywood;
+    width: 28%;
+    margin: 19px;
+    padding: 20px;
+    box-shadow: 2px 2px 10px white;
+}
+h5{
+    color: #fff;
+    text-align: center;
+
+}
+p{
+    color: palegreen;
+    font-size: 0.9rem;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+.containt{
+    height: 20px;
+}
+#ni:hover{
+    background-color: green;
+    border-radius: 30px;
+    box-shadow: 10 10 10 20;
+    display: block;
+    padding: 20px;
+}
